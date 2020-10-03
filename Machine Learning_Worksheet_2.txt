@@ -1,0 +1,44 @@
+Question no., Correct_option, Describe
+
+1> c, High R-squared value for train-set and Low R-squared value for test-set.
+2> a,  Decision trees are prone to outliers.
+3> c, Random Forest
+4> a, accuracy
+5> b, Model B
+
+More than one correct option
+
+6> a,d
+7> b,d
+8> a,b
+9> a,b,c
+
+Subjective Question answer
+
+10> Answer:- The adjusted R-squared penalize you for adding independents variables that 
+             do not fit in models.Some of those variables will be significant but you can't
+             be sure the significant is just by chance.
+           - The adjusted compensate for this by that penalizing you for those extra variables.
+
+11> Answer:- Ridge and Lasso both are the regression model. Ridge regularizatin in use for L2-
+             regression where Lasso is use for L1-regression. In the Ridge regression the penalty
+             is the sum of squares of the coefficients, where Lasso, it's sum of the absolute values
+             of the coefficients.
+
+12>Answer:- Variable inflatio factor(VIF) is a measure of the ammout of the multicollinearity in a 
+            set of multiple regression variables.Sutable values of VIF is 6-7 for a feature ot be 
+            included in a regression modeling.
+
+13>Answer:- Scale or StandardScaler is needed before feeding it to the train the model because, it 
+            basically helps to normalise the data within a particular range. Sometime it also use 
+            to speed up the calculations in the algorithum.
+
+14>Answer:- Different regression metrics in linear regression is mean absolute error,mean squared error,
+            and square root of mean absolute error.Goodness of fit in general, refers to measuring the
+            observed data correspond ot fitted model.
+
+15>Answer:- precision= 1000/1000+250 =0.8
+            recall=  1000/1000+50  = 0.95
+            accuracy= 1000+1200/1000+1200+250+50 = 0.88
+            specificity= 1200/1200+250 = 0.827
+            
